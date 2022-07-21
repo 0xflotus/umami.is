@@ -36,11 +36,12 @@ Cookie: umami.auth=eyTMjU2IiwiY...4Q0JDLUhWxnIjoiUE_A
 ## Getting stats
 
 There are several endpoints your can call to get stats for your website. All the
-stats endpoints require sending a `GET` request with the `umami.auth` authentication cookie, and the `(int) website id`.
-all **Parameters** are **required**.
+stats endpoints require sending a `GET` request with the `umami.auth` authentication cookie and the `(int) website id`.
+All **parameters** are **required**.
 
 ### Debugging
-to debug any issue while coding your API client, run your umami on dev mod:
+
+To debug any issue while coding your API client, run your umami in dev mode:
 
 `npm run dev`
 
